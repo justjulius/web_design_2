@@ -1,0 +1,88 @@
+body {
+  font-family: Arial;
+  background: floralwhite url('back.png');
+  background-size: 100px;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1,
+h3 {
+  font-family: 'Merriweather', serif;
+}
+
+.news img {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news {
+  margin: 0px 12px;
+}
+
+.banner {
+  width: 100%;
+}
+
+main {
+  width: 900px;
+  margin: 0px auto 0px auto;
+  background-color: rgb(240, 225, 185);
+  border: 3px solid darkblue;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.newsContainer {
+  width: 80%;
+}
+
+.add {
+  width: 20%;
+}
+
+.add img {
+  width: 100%;
+}
+
+nav a {
+  color: blue;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav {
+  width: 900px;
+  padding: 7px 0px;
+  border-bottom: 2px solid blue;
+  background-color: aliceblue;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+.news a {
+  color: blue;
+  text-decoration: none;
+}
+.news a:hover {
+  color: black;
+}
